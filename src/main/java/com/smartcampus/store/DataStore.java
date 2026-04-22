@@ -9,15 +9,7 @@ import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-/**
- * Centralised in-memory data store.
- *
- * Uses ConcurrentHashMap for all collections to ensure thread-safety
- * when multiple requests access/modify data concurrently.
- *
- * This is a singleton — the single source of truth for the entire API.
- * Pre-loaded with sample data so the API is demo-ready on startup.
- */
+
 public class DataStore {
 
     // Thread-safe maps: key = entity ID, value = entity object
