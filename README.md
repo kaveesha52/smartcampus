@@ -32,7 +32,7 @@ The API follows **REST architectural principles** with a versioned base path of 
 Key design decisions:
 - **In-memory storage** using `ConcurrentHashMap` and `CopyOnWriteArrayList` for thread-safe, database-free operation.
 - **Sub-Resource Locator pattern** for nested reading history, keeping resource classes focused and maintainable.
-- **Exception Mappers** for every error scenario — no raw stack traces ever reach the client.
+- **Exception Mappers** for every error scenario - no raw stack traces ever reach the client.
 - **Request/Response logging filter** for full API observability without polluting business logic.
 - **HATEOAS links** (`_links`) in all POST responses to guide clients to related resources.
 
