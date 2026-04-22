@@ -95,14 +95,14 @@ smart-campus-api/
 - Java 11 or higher (`java -version`)
 - Maven 3.6+ (`mvn -version`)
 
-### Step 1 — Clone the repository
+### Step 1 - Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/smart-campus-api.git
 cd smart-campus-api
 ```
 
-### Step 2 — Build the fat JAR
+### Step 2 - Build the fat JAR
 
 ```bash
 mvn clean package
@@ -110,7 +110,7 @@ mvn clean package
 
 This produces `target/smart-campus-api-1.0.0.jar` - a self-contained executable with all dependencies bundled.
 
-### Step 3 — Start the server
+### Step 3 - Start the server
 
 ```bash
 java -jar target/smart-campus-api-1.0.0.jar
@@ -124,7 +124,7 @@ INFO: Endpoints available at: http://localhost:8080/api/v1
 INFO: Press CTRL+C to stop.
 ```
 
-### Step 4 — Verify it's running
+### Step 4 - Verify it's running
 
 ```bash
 curl http://localhost:8080/api/v1
