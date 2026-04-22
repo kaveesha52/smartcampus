@@ -18,7 +18,7 @@ A RESTful API built with **JAX-RS (Jersey 2.39)** and an embedded **Grizzly HTTP
 
 ## API Design Overview
 
-The API follows **REST architectural principles** with a versioned base path of `/api/v1`. It models three core entities — `Room`, `Sensor`, and `SensorReading` — with a logical hierarchy that mirrors the physical campus:
+The API follows **REST architectural principles** with a versioned base path of `/api/v1`. It models three core entities - `Room`, `Sensor`, and `SensorReading` - with a logical hierarchy that mirrors the physical campus:
 
 ```
 /api/v1
