@@ -234,7 +234,7 @@ curl -s -X POST http://localhost:8080/api/v1/sensors \
 
 ---
 
-### Part 1.1 — JAX-RS Resource Lifecycle & Concurrency
+### Part 1.1 - JAX-RS Resource Lifecycle & Concurrency
 
 **Q:** Explain the default lifecycle of a JAX-RS Resource class. Is a new instance created per request or is it a singleton? How does this impact in-memory data management?
 
@@ -252,7 +252,7 @@ In this project, the resource classes themselves hold no mutable state at all. T
 
 ---
 
-### Part 1.2 — HATEOAS and Hypermedia Design
+### Part 1.2 - HATEOAS and Hypermedia Design
 
 **Q:** Why is the provision of Hypermedia (HATEOAS) considered a hallmark of advanced RESTful design? How does it benefit client developers compared to static documentation?
 
@@ -270,7 +270,7 @@ In this API, every POST response includes a `_links` object, and the Discovery e
 
 ---
 
-### Part 2.1 — Returning Full Objects vs IDs in List Responses
+### Part 2.1 - Returning Full Objects vs IDs in List Responses
 
 **Q:** When returning a list of rooms, what are the implications of returning only IDs versus returning the full room objects?
 
