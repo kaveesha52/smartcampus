@@ -46,4 +46,12 @@ public class DiscoveryResource {
 
         return Response.ok(response).build();
     }
+
+    @GET
+    @Path("/error")
+    public Response triggerError() {
+        String x = null;
+        x.length(); // 🔥 forces NullPointerException
+        return Response.ok().build();
+    }
 }
